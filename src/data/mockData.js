@@ -47,17 +47,20 @@ export const recommendedItems = [
   { id: 10, name: "Jeans bag for travel for men", price: 80.95, image: "/src/assets/Layout/alibaba/Image/interior/image 90.png" },
 ]
 
-export const listingProducts = Array.from({ length: 12 }, (_, i) => ({
-  id: i + 1,
-  name: "GoPro HERO6 4K Action Camera - Black",
-  price: 998.00,
-  originalPrice: 1128.00,
-  rating: 7.5,
-  orders: 154,
-  shipping: "Free Shipping",
-  image: `/src/assets/Image/tech/image ${23 + (i % 5)}.png`,
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-}))
+export const listingProducts = [
+  { id: 1, name: "GoPro HERO6 4K Action Camera - Black", price: 998.00, originalPrice: 1128.00, rating: 7.5, orders: 154, shipping: "Free Shipping", image: "/src/assets/Image/tech/image 23.png", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+  { id: 2, name: "GoPro HERO6 4K Action Camera - Black", price: 998.00, originalPrice: 1128.00, rating: 7.5, orders: 154, shipping: "Free Shipping", image: "/src/assets/Image/tech/image 29.png", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+  { id: 3, name: "GoPro HERO6 4K Action Camera - Black", price: 998.00, originalPrice: 1128.00, rating: 7.5, orders: 154, shipping: "Free Shipping", image: "/src/assets/Image/tech/image 32.png", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+  { id: 4, name: "GoPro HERO6 4K Action Camera - Black", price: 998.00, originalPrice: 1128.00, rating: 7.5, orders: 154, shipping: "Free Shipping", image: "/src/assets/Image/tech/image 33.png", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+  { id: 5, name: "GoPro HERO6 4K Action Camera - Black", price: 998.00, originalPrice: 1128.00, rating: 7.5, orders: 154, shipping: "Free Shipping", image: "/src/assets/Image/tech/image 34.png", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+  { id: 6, name: "GoPro HERO6 4K Action Camera - Black", price: 998.00, originalPrice: 1128.00, rating: 7.5, orders: 154, shipping: "Free Shipping", image: "/src/assets/Image/tech/image 85.png", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+  { id: 7, name: "GoPro HERO6 4K Action Camera - Black", price: 998.00, originalPrice: 1128.00, rating: 7.5, orders: 154, shipping: "Free Shipping", image: "/src/assets/Image/tech/image 86.png", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+  { id: 8, name: "GoPro HERO6 4K Action Camera - Black", price: 998.00, originalPrice: 1128.00, rating: 7.5, orders: 154, shipping: "Free Shipping", image: "/src/assets/Image/tech/6.png", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+  { id: 9, name: "GoPro HERO6 4K Action Camera - Black", price: 998.00, originalPrice: 1128.00, rating: 7.5, orders: 154, shipping: "Free Shipping", image: "/src/assets/Image/tech/8.png", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+  { id: 10, name: "GoPro HERO6 4K Action Camera - Black", price: 998.00, originalPrice: 1128.00, rating: 7.5, orders: 154, shipping: "Free Shipping", image: "/src/assets/Image/tech/image 23.png", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+  { id: 11, name: "GoPro HERO6 4K Action Camera - Black", price: 998.00, originalPrice: 1128.00, rating: 7.5, orders: 154, shipping: "Free Shipping", image: "/src/assets/Image/tech/image 29.png", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+  { id: 12, name: "GoPro HERO6 4K Action Camera - Black", price: 998.00, originalPrice: 1128.00, rating: 7.5, orders: 154, shipping: "Free Shipping", image: "/src/assets/Image/tech/image 32.png", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+]
 
 export const cartItems = [
   { id: 1, name: "T-shirts with multiple colors, for men and lady", size: "medium", color: "blue", material: "Plastic", seller: "Artel Market", qty: 9, price: 78.99, image: "/src/assets/Layout/alibaba/Image/cloth/2 1.png" },
@@ -65,12 +68,12 @@ export const cartItems = [
   { id: 3, name: "T-shirts with multiple colors, for men and lady", size: "medium", color: "blue", material: "Plastic", seller: "Artel Market", qty: 1, price: 170.50, image: "/src/assets/Layout/alibaba/Image/cloth/Bitmap (2).png" },
 ]
 
-export const savedForLater = Array.from({ length: 4 }, (_, i) => ({
-  id: i + 1,
-  name: "GoPro HERO6 4K Action Camera - Black",
-  price: 99.50,
-  image: `/src/assets/Image/tech/image ${23 + (i % 5)}.png`,
-}))
+export const savedForLater = [
+  { id: 1, name: "GoPro HERO6 4K Action Camera - Black", price: 99.50, image: "/src/assets/Image/tech/image 23.png" },
+  { id: 2, name: "GoPro HERO6 4K Action Camera - Black", price: 99.50, image: "/src/assets/Image/tech/image 29.png" },
+  { id: 3, name: "GoPro HERO6 4K Action Camera - Black", price: 99.50, image: "/src/assets/Image/tech/image 32.png" },
+  { id: 4, name: "GoPro HERO6 4K Action Camera - Black", price: 99.50, image: "/src/assets/Image/tech/image 33.png" },
+]
 
 export const supplierRegions = [
   { country: "Arabic Emirates", flag: "/src/assets/Layout1/Image/flags/AE@2x.png", url: "shopname.ae" },

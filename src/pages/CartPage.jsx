@@ -137,7 +137,7 @@ export default function CartPage() {
                 <img
                   src={item.image}
                   alt={item.name}
-                  className="w-full h-24 object-cover rounded mb-2"
+                  className="w-full h-24 object-contain rounded mb-2 p-2"
                 />
                 <p className="font-semibold text-sm">${item.price.toFixed(2)}</p>
                 <p className="text-xs text-gray-500 mb-2 line-clamp-2">{item.name}</p>
